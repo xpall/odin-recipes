@@ -6,6 +6,12 @@ h1 {
     font-size: 40px;
     font-weight: bolder;
     color: orangered;
+    margin: 10px;
+}
+
+h3 {
+    border: 1px solid orangered;
+    text-transform: uppercase;
 }
 
 body {
@@ -15,3 +21,8 @@ body {
 ul {
     list-style: none;
 }
+
+.recipe-ingredients {
+    font-style: italic;
+}
+
