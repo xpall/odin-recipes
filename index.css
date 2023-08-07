@@ -1,9 +1,10 @@
 * {
     line-height: 1.5;
     align-items: center;
-    padding-top: -10px;
-    padding-bottom: -10px;
-    padding-left: 10px; 
+    padding: 5px;
+    /* padding-top: -10px;
+    padding-bottom: -10px; */
+    /* padding-left: 10px; */
 }
 /* 
 h1 {
@@ -19,7 +20,7 @@ h1, h3 {
 }
 
 h1 {
-    font size: 40px;
+    font-size: 40px;
 }
 
 h3 {
@@ -49,4 +50,19 @@ ul {
 
 .pic.chef {
     width: 600px;
+}
+
+.link-list {
+    display: flex;
+    justify-content: center;
+}
+
+.link-list > li > a {  
+    gap: 30px;
+    background-color: orange;
+}
+
+.link-list >li {
+    text-align: center;
+    font-weight: bolder;
 }
